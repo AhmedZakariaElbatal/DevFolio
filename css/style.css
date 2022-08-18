@@ -1,0 +1,425 @@
+
+body {
+  background-color: #f5f5f5;
+}
+.home {
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+}
+/* .navbar-collapse{
+    flex-grow: 0;
+} */
+nav .logo {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-nav a:hover {
+  border-bottom: 2px solid white;
+  border-width: 50%;
+  animation-name: ChangeWidth;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+@keyframes ChangeWidth {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+.font-s {
+  font-size: 70px !important;
+}
+.home .home-content p::after {
+  font-size: 35px;
+  font-weight: 600;
+  content: "";
+  animation: typing 10s alternate infinite;
+}
+
+@keyframes typing {
+  0% {
+    content: "F|";
+  }
+  1% {
+    content: "Fr|";
+  }
+  2% {
+    content: "Fre|";
+  }
+  3% {
+    content: "Free|";
+  }
+  4% {
+    content: "Freel|";
+  }
+  5% {
+    content: "Freela|";
+  }
+  6% {
+    content: "Freelan|";
+  }
+  8% {
+    content: "Freelanc|";
+  }
+  9% {
+    content: "Freelance|";
+  }
+  12% {
+    content: "Freelancer|";
+  }
+  15% {
+    content: "Freelancer";
+  }
+  18% {
+    content: "Freelancer|";
+  }
+  21% {
+    content: "Freelancer";
+  }
+  24% {
+    content: "Freelancer|";
+  }
+  27% {
+    content: "Freelancer";
+  }
+  28% {
+    content: "Freelanc|";
+  }
+  29% {
+    content: "Freelan|";
+  }
+  30% {
+    content: "Freela|";
+  }
+  31% {
+    content: "Freel|";
+  }
+  32% {
+    content: "Free|";
+  }
+  33% {
+    content: "Fre|";
+  }
+  34% {
+    content: "Fr|";
+  }
+  35% {
+    content: "F|";
+  }
+  36% {
+    content: "P|";
+  }
+  37% {
+    content: "Ph|";
+  }
+  38% {
+    content: "Pho|";
+  }
+  39% {
+    content: "Phot|";
+  }
+  40% {
+    content: "Photo|";
+  }
+  41% {
+    content: "Photog|";
+  }
+  42% {
+    content: "Photogr|";
+  }
+  43% {
+    content: "Photogra|";
+  }
+  44% {
+    content: "Photograp|";
+  }
+  45% {
+    content: "Photograph|";
+  }
+  46% {
+    content: "Photographe|";
+  }
+  49% {
+    content: "Photographer|";
+  }
+  53% {
+    content: "Photographer";
+  }
+  56% {
+    content: "Photographer|";
+  }
+  59% {
+    content: "Photographer";
+  }
+  62% {
+    content: "Photographer|";
+  }
+  65% {
+    content: "Photographer";
+  }
+  66% {
+    content: "Photographe|";
+  }
+  67% {
+    content: "Photograph|";
+  }
+  68% {
+    content: "Photograp|";
+  }
+  69% {
+    content: "Photogra|";
+  }
+  70% {
+    content: "Photogr|";
+  }
+  71% {
+    content: "Photog|";
+  }
+  72% {
+    content: "Photo|";
+  }
+  73% {
+    content: "Phot|";
+  }
+  74% {
+    content: "Pho|";
+  }
+  75% {
+    content: "Ph|";
+  }
+  76% {
+    content: "P|";
+  }
+  77% {
+    content: "D|";
+  }
+  78% {
+    content: "De|";
+  }
+  79% {
+    content: "Des|";
+  }
+  80% {
+    content: "Desi|";
+  }
+  81% {
+    content: "Desig|";
+  }
+  82% {
+    content: "Design|";
+  }
+  83% {
+    content: "Designe|";
+  }
+  86% {
+    content: "Designer|";
+  }
+  89% {
+    content: "Designer";
+  }
+  92% {
+    content: "Designer|";
+  }
+  95% {
+    content: "Designer";
+  }
+  98% {
+    content: "Designer|";
+  }
+  100% {
+    content: "Designer";
+  }
+}
+.w-85 {
+  width: 85%;
+}
+.w-90 {
+  width: 90%;
+}
+
+.skill-border {
+  border: 5px solid #0078ff;
+}
+.skill-border::after {
+  transform: translatey(-50%) translatex(100%);
+  content: "";
+  height: 10px;
+  background-color: rgb(124, 214, 241);
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  width: 50px;
+}
+.about-me::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
+  left: 0%;
+}
+.line-service{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+.service-h1{
+    font-size: 45px;
+    font-weight: 650;
+    color: black;
+}
+.card-body{
+    margin-bottom:10px;
+    color: black;
+
+}
+
+section .card:hover i{
+    background-color:rgb(80, 127, 214);
+    color: white;
+
+}
+.analysis{
+    background-image: url(../img/counters-bg.jpg);
+    background-attachment: fixed;
+    background-size:100% 100%;
+
+}
+.analysis .layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 120, 253,0.5);
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.card{
+    background-color: transparent !important;
+    
+
+}
+.ana-h{
+    height: 450px;
+}
+.card-body-wh{
+    margin-bottom:10px;
+
+}
+.portfolio .card img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+.portfolio .card:hover img{
+   transform: scale(1.2);
+
+
+}
+.work{
+  overflow: hidden;
+}
+.bg-slider{
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size:100% 100%;
+    position: relative;
+
+}
+.bg-slider .layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 120, 253,0.5);
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.contact{
+    height:100vh;
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size:100% 100%;
+    position: relative;
+
+}
+.contact .layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 120, 253,0.5);
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+  #contact-home h2 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .contact-us .name {
+    color: rgb(182, 182, 182);
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 201);
+  }
+  .contact-us .subject {
+    color: rgb(182, 182, 182);
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 201);}
+
+  .contact-us .email {
+    color: rgb(182, 182, 182);
+    font-size: 16px;
+    font-weight: 500;
+    width:100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 201);
+  }
+  .contact-us textarea {
+    padding: 10px;
+    color: rgb(240, 232, 232);
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(201, 201, 201);
+  }
+  .btn-message {
+    position: relative;
+    left: 30%;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 17px;
+    border: 1px solid #0078ff;
+    width: 210px;
+    background-color: #0078ff;
+    padding: 13px;
+    font-weight: 550;
+    border-radius: 25px;
+  }
+
+
